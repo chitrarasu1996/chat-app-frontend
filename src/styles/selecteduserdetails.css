@@ -1,0 +1,16 @@
+.selectedUserDetails{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    text-transform: uppercase;
+    gap:1rem;
+    cursor: pointer;
+    color: white;
+}
+.logoutbutton{
+    border-radius: 4px;
+    background-color:#9a86f3;
+    color: white;
+    padding: 1px 4px;
+    cursor: pointer;
+}

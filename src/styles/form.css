@@ -1,0 +1,62 @@
+
+.background-wrapper{
+    background-color: #00000076;
+    padding:2rem 4rem;
+    border-radius: 1rem;
+}
+.form-wrapper{
+ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  overflow-y: auto;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+  background-color:#131324;
+  color: white;
+  padding: 60px !important;
+}
+
+
+
+img{
+    width: 2rem;
+ 
+}
+.img-wrapper{
+    display: flex;
+  gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.input-wrapper{
+    background-color: transparent !important;
+    color: white !important;
+    padding: 1rem;
+    border-color: #4e0eff !important;
+}
+.input-wrapper::placeholder{
+    color: white !important;
+}
+.button-container{
+    background-color: #997af0 !important;
+    color: white !important;
+
+  padding: 0.6rem 5.3rem !important;
+text-align: center ;
+  text-transform: uppercase !important;
+  font-weight: 500 !important;
+  transition: 0.5s ease-in-out !important;
+  &:hover{
+    background-color:#4e0eff !important;
+
+  }
+
+}
+
+.have-account{
+text-transform: uppercase;
+
+}
+

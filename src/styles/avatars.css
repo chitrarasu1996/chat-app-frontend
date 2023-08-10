@@ -1,0 +1,42 @@
+.hole-avatar-wrap{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+
+width: 100vw;
+background-color: #131324;
+}
+
+.avatars{
+    display: flex;
+
+     gap:2rem;
+}
+.img-avatar{
+   width: 2.5rem !important;
+
+}
+h1{
+    color: white;
+    padding: 2rem;
+}
+.avatar{
+ transition: 0.5s ease-in-out;
+ border-radius: 4rem;
+ border: 1px solid transparent;
+padding: 0.3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.selected{
+
+border:1px solid #4e0eff;
+
+}
+.loader-image{
+    width: 10rem;
+}

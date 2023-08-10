@@ -1,0 +1,74 @@
+
+.hole-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width:50vw;
+gap:0.4rem;
+padding-right: 1rem;
+padding-left: 1rem;
+background-color: #ffffff34;
+border-radius: 3rem !important;
+height: 35px;
+cursor: pointer;
+gap: 1rem;
+}
+.input-container{
+    width: 75vh;    
+background-color: transparent;
+outline: none;
+color: white;
+border: none;
+font-size: 1rem;
+}
+.send-button{
+color: white ;
+padding: 0.3rem 1.1rem;
+border-radius: 2rem;
+background-color: #9a86f3;
+border: none;
+}
+.emoji-container{
+color: #ffff00c8;
+ position: relative;
+ border-color: #9a86f3 !important;
+}
+
+.emoji-picker-react{
+   position: absolute !important;
+    top: -330px !important;   
+font-size: 0.8rem !important;
+box-shadow: 0 5px 16px #9a86f3;
+border-radius: 6px;
+}
+
+.emoji-picker-react:hover{
+    background-color: #080234 !important;
+}
+aside{
+    background-color: transparent !important;
+    width: 300px!important;
+   border-color: #9a86f3 !important;
+    color: white;
+ 
+}
+.epr-search{
+    background-color: transparent !important;
+    color: white !important;
+    border-color: #9a86f3 !important;
+}
+.epr-emoji-category-label{
+    background-color: transparent !important;
+ 
+}
+
+
+.epr-body::-webkit-scrollbar{
+background-color: #080234;
+width: 5px !important;
+
+}
+.epr-body::-webkit-scrollbar-thumb{
+    background-color: #9a86f3 !important
+   }
+

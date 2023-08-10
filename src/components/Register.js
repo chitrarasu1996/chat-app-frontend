@@ -56,7 +56,7 @@ if(data.success){
 
   navigate("/login")
   setTimeout(()=>{
-    toast.success(data.message)
+    toast.success("user Successfully Registered")
 
   },1000)
 }else{

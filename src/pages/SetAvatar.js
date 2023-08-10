@@ -99,7 +99,7 @@ src={`data:image/svg+xml;base64,${avatar}`}  alt='avatar'/>
     )
 })}      
 </div>
-<button className='btn mb-2 mt-4' type='submit' onClick={setProfilePictures}>Set Profile as profile</button>  
+<button className='btn mb-2 mt-4 text-white' type='submit' onClick={setProfilePictures}>Set Profile as profile</button>  
 <Toaster/>
 </div>}
 </>
